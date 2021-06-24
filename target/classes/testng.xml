@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.mavendemo.base.ExtentReportListener" />
+</listeners>
+
+
+  <test name="Test">
+    <classes>
+      <class name="com.mavendemo.test.PaymentPageTest"/>
+      <class name="com.mavendemo.test.BuyPageTest"/>
+      <class name="com.mavendemo.test.CartPageTest"/>
+      <class name="com.mavendemo.test.HomePageAndProductSelectPageTest"/>
+      <class name="com.mavendemo.test.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

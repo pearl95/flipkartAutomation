@@ -1,0 +1,4 @@
+2021-06-24 14:58:17,830  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
+2021-06-24 14:59:01,448  INFO [main] TestBaseFlip:68 - ****************** starting test case 2 ***********************
+2021-06-24 14:59:07,880 ERROR [main] TestBaseFlip:86 - credit cardnumber successful
+2021-06-24 14:59:07,881  INFO [main] TestBaseFlip:90 - ******** ending test case ******************
