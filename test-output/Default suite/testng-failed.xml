@@ -6,6 +6,8 @@
       <class name="com.mavendemo.test.PaymentPageTest">
         <methods>
           <include name="creditCardPaymentTest"/>
+          <include name="teardown"/>
+          <include name="paymentPageTitleTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.mavendemo.test.PaymentPageTest -->

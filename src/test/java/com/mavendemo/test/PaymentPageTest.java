@@ -46,7 +46,7 @@ public class PaymentPageTest extends TestBaseFlip {
 		 paymentPage=cartPage.placeOrderButtonPageClick();
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void paymentPageTitleTest() throws InterruptedException {
 		
 		log.info("****************** starting test case 1 ***********************");
@@ -94,7 +94,7 @@ public class PaymentPageTest extends TestBaseFlip {
 	
 	
 	
-	//@AfterMethod
+	@AfterMethod
 	public void teardown() throws InterruptedException {
 		Thread.sleep(1000);
 		driver.quit();
