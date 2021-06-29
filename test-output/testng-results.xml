@@ -1,31 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+<testng-results skipped="2" failed="2" ignored="0" total="12" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78342" started-at="2021-06-28T09:59:12Z" finished-at="2021-06-28T10:00:30Z">
+  <suite name="Default suite" duration-ms="336083" started-at="2021-06-28T14:04:16Z" finished-at="2021-06-28T14:09:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78342" started-at="2021-06-28T09:59:12Z" finished-at="2021-06-28T10:00:30Z">
+    <test name="Default test" duration-ms="336083" started-at="2021-06-28T14:04:16Z" finished-at="2021-06-28T14:09:52Z">
+      <class name="com.mavendemo.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mavendemo.test.LoginPageTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="28511" started-at="2021-06-28T14:04:16Z" finished-at="2021-06-28T14:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.mavendemo.test.LoginPageTest@1a8a8f7c]" name="loginPageTitleTest" duration-ms="56" started-at="2021-06-28T14:04:45Z" finished-at="2021-06-28T14:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.LoginPageTest@1a8a8f7c]" name="teardown" is-config="true" duration-ms="1319" started-at="2021-06-28T14:04:45Z" finished-at="2021-06-28T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mavendemo.test.LoginPageTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="16897" started-at="2021-06-28T14:08:07Z" finished-at="2021-06-28T14:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.mavendemo.test.LoginPageTest@1a8a8f7c]" name="loginTest" duration-ms="7603" started-at="2021-06-28T14:08:24Z" finished-at="2021-06-28T14:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.LoginPageTest@1a8a8f7c]" name="teardown" is-config="true" duration-ms="1222" started-at="2021-06-28T14:08:32Z" finished-at="2021-06-28T14:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.LoginPageTest -->
+      <class name="com.mavendemo.test.HomePageAndProductSelectPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="setup" is-config="true" duration-ms="24218" started-at="2021-06-28T14:05:43Z" finished-at="2021-06-28T14:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="homePageTitleTest" duration-ms="40" started-at="2021-06-28T14:06:07Z" finished-at="2021-06-28T14:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="teardown" is-config="true" duration-ms="2835" started-at="2021-06-28T14:06:07Z" finished-at="2021-06-28T14:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="setup" is-config="true" duration-ms="12246" started-at="2021-06-28T14:08:33Z" finished-at="2021-06-28T14:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homeTest()[pri:2, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="homeTest" duration-ms="5353" started-at="2021-06-28T14:08:45Z" finished-at="2021-06-28T14:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="teardown" is-config="true" duration-ms="2147" started-at="2021-06-28T14:08:51Z" finished-at="2021-06-28T14:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="setup" is-config="true" duration-ms="13210" started-at="2021-06-28T14:09:19Z" finished-at="2021-06-28T14:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageUserTest()[pri:3, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="homePageUserTest" duration-ms="315" started-at="2021-06-28T14:09:32Z" finished-at="2021-06-28T14:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageUserTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="teardown" is-config="true" duration-ms="1761" started-at="2021-06-28T14:09:32Z" finished-at="2021-06-28T14:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="setup" is-config="true" duration-ms="12024" started-at="2021-06-28T14:09:34Z" finished-at="2021-06-28T14:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="ProductPageProductTest()[pri:4, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="ProductPageProductTest" duration-ms="3946" started-at="2021-06-28T14:09:46Z" finished-at="2021-06-28T14:09:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.mavendemo.test.HomePageAndProductSelectPageTest.ProductPageProductTest(HomePageAndProductSelectPageTest.java:98)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPageProductTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@631330c]" name="teardown" is-config="true" duration-ms="2167" started-at="2021-06-28T14:09:50Z" finished-at="2021-06-28T14:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.HomePageAndProductSelectPageTest -->
+      <class name="com.mavendemo.test.CartPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.CartPageTest@42f93a98]" name="setup" is-config="true" duration-ms="33185" started-at="2021-06-28T14:06:10Z" finished-at="2021-06-28T14:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="cartPagePriceTest()[pri:1, instance:com.mavendemo.test.CartPageTest@42f93a98]" name="cartPagePriceTest" duration-ms="1060" started-at="2021-06-28T14:06:43Z" finished-at="2021-06-28T14:06:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.mavendemo.test.CartPageTest.cartPagePriceTest(CartPageTest.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPagePriceTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.CartPageTest@42f93a98]" name="teardown" is-config="true" duration-ms="2733" started-at="2021-06-28T14:06:44Z" finished-at="2021-06-28T14:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.CartPageTest@42f93a98]" name="setup" is-config="true" duration-ms="26693" started-at="2021-06-28T14:07:21Z" finished-at="2021-06-28T14:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="placeOrderButtonClick()[pri:2, instance:com.mavendemo.test.CartPageTest@42f93a98]" name="placeOrderButtonClick" duration-ms="17466" started-at="2021-06-28T14:07:47Z" finished-at="2021-06-28T14:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderButtonClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.CartPageTest@42f93a98]" name="teardown" is-config="true" duration-ms="2409" started-at="2021-06-28T14:08:05Z" finished-at="2021-06-28T14:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.CartPageTest -->
+      <class name="com.mavendemo.test.BuyPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.BuyPageTest@c46bcd4]" name="setup" is-config="true" duration-ms="27198" started-at="2021-06-28T14:06:47Z" finished-at="2021-06-28T14:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="buyPageTitleTest()[pri:1, instance:com.mavendemo.test.BuyPageTest@c46bcd4]" name="buyPageTitleTest" duration-ms="4003" started-at="2021-06-28T14:07:14Z" finished-at="2021-06-28T14:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.BuyPageTest@c46bcd4]" name="teardown" is-config="true" duration-ms="2276" started-at="2021-06-28T14:07:18Z" finished-at="2021-06-28T14:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.BuyPageTest@c46bcd4]" name="setup" is-config="true" duration-ms="20092" started-at="2021-06-28T14:08:53Z" finished-at="2021-06-28T14:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="buyPageBuyButtonClick()[pri:2, instance:com.mavendemo.test.BuyPageTest@c46bcd4]" name="buyPageBuyButtonClick" duration-ms="4180" started-at="2021-06-28T14:09:13Z" finished-at="2021-06-28T14:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyPageBuyButtonClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.BuyPageTest@c46bcd4]" name="teardown" is-config="true" duration-ms="1889" started-at="2021-06-28T14:09:17Z" finished-at="2021-06-28T14:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.BuyPageTest -->
       <class name="com.mavendemo.test.PaymentPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.mavendemo.test.PaymentPageTest@704a52ec]" name="setup" is-config="true" duration-ms="77964" started-at="2021-06-28T09:59:12Z" finished-at="2021-06-28T10:00:30Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.mavendemo.test.PaymentPageTest@2353b3e6]" name="setup" is-config="true" duration-ms="56676" started-at="2021-06-28T14:04:46Z" finished-at="2021-06-28T14:05:43Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.101.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7ddaee00d773a2ae6500bcde4254a2aa]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86b677ecdeb52867fbc29eedc2d5225e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.101.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7ddaee00d773a2ae6500bcde4254a2aa
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86b677ecdeb52867fbc29eedc2d5225e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -80,25 +286,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="paymentPageTitleTest()[pri:1, instance:com.mavendemo.test.PaymentPageTest@704a52ec]" name="paymentPageTitleTest" duration-ms="0" started-at="2021-06-28T10:00:30Z" finished-at="2021-06-28T10:00:30Z">
+        <test-method status="SKIP" signature="paymentPageTitleTest()[pri:1, instance:com.mavendemo.test.PaymentPageTest@2353b3e6]" name="paymentPageTitleTest" duration-ms="0" started-at="2021-06-28T14:05:43Z" finished-at="2021-06-28T14:05:43Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.101.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7ddaee00d773a2ae6500bcde4254a2aa]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86b677ecdeb52867fbc29eedc2d5225e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.101.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7ddaee00d773a2ae6500bcde4254a2aa
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86b677ecdeb52867fbc29eedc2d5225e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -153,33 +359,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentPageTitleTest -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.mavendemo.test.PaymentPageTest@704a52ec]" name="teardown" is-config="true" duration-ms="0" started-at="2021-06-28T10:00:30Z" finished-at="2021-06-28T10:00:30Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.mavendemo.test.PaymentPageTest@2353b3e6]" name="teardown" is-config="true" duration-ms="0" started-at="2021-06-28T14:05:43Z" finished-at="2021-06-28T14:05:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:com.mavendemo.test.PaymentPageTest@704a52ec]" name="setup" is-config="true" duration-ms="0" started-at="2021-06-28T10:00:30Z" finished-at="2021-06-28T10:00:30Z">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.mavendemo.test.PaymentPageTest@2353b3e6]" name="setup" is-config="true" duration-ms="0" started-at="2021-06-28T14:08:33Z" finished-at="2021-06-28T14:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="creditCardPaymentTest()[pri:2, instance:com.mavendemo.test.PaymentPageTest@704a52ec]" name="creditCardPaymentTest" duration-ms="0" started-at="2021-06-28T10:00:30Z" finished-at="2021-06-28T10:00:30Z">
+        <test-method status="SKIP" signature="creditCardPaymentTest()[pri:2, instance:com.mavendemo.test.PaymentPageTest@2353b3e6]" name="creditCardPaymentTest" duration-ms="0" started-at="2021-06-28T14:08:33Z" finished-at="2021-06-28T14:08:33Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.101.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7ddaee00d773a2ae6500bcde4254a2aa]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86b677ecdeb52867fbc29eedc2d5225e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.101.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7ddaee00d773a2ae6500bcde4254a2aa
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86b677ecdeb52867fbc29eedc2d5225e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -234,7 +440,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditCardPaymentTest -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.mavendemo.test.PaymentPageTest@704a52ec]" name="teardown" is-config="true" duration-ms="0" started-at="2021-06-28T10:00:30Z" finished-at="2021-06-28T10:00:30Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.mavendemo.test.PaymentPageTest@2353b3e6]" name="teardown" is-config="true" duration-ms="0" started-at="2021-06-28T14:08:33Z" finished-at="2021-06-28T14:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
