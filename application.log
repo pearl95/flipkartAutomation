@@ -1,39 +1,4 @@
-2021-06-28 19:34:16,924  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:34:45,405  INFO [main] TestBaseFlip:38 - ****************** starting test case 1 ***********************
-2021-06-28 19:34:45,445  INFO [main] TestBaseFlip:47 - ******** ending test case ******************
-2021-06-28 19:34:46,772  INFO [main] TestBaseFlip:73 - ************* Browser is closed *************************
-2021-06-28 19:34:46,775  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:35:43,552  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:36:07,780  INFO [main] TestBaseFlip:42 - ****************** starting test case 1 ***********************
-2021-06-28 19:36:07,800  INFO [main] TestBaseFlip:51 - ******** ending test case ******************
-2021-06-28 19:36:10,645  INFO [main] TestBaseFlip:112 - ************* Browser is closed *************************
-2021-06-28 19:36:10,647  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:36:43,839  INFO [main] TestBaseFlip:51 - ****************** starting test case 1 ***********************
-2021-06-28 19:36:47,632  INFO [main] TestBaseFlip:91 - ************* Browser is closed *************************
-2021-06-28 19:36:47,634  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:37:14,840  INFO [main] TestBaseFlip:45 - ****************** starting test case 1 ***********************
-2021-06-28 19:37:18,835  INFO [main] TestBaseFlip:57 - ******** ending test case ******************
-2021-06-28 19:37:21,116  INFO [main] TestBaseFlip:87 - ************* Browser is closed *************************
-2021-06-28 19:37:21,117  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:37:47,818  INFO [main] TestBaseFlip:71 - ****************** starting test case 2 ***********************
-2021-06-28 19:38:05,276  INFO [main] TestBaseFlip:82 - ******** ending test case ******************
-2021-06-28 19:38:07,685  INFO [main] TestBaseFlip:91 - ************* Browser is closed *************************
-2021-06-28 19:38:07,687  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:38:24,592  INFO [main] TestBaseFlip:54 - ****************** starting test case 2 ***********************
-2021-06-28 19:38:32,187  INFO [main] TestBaseFlip:63 - ******** ending test case ******************
-2021-06-28 19:38:33,413  INFO [main] TestBaseFlip:73 - ************* Browser is closed *************************
-2021-06-28 19:38:33,449  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:38:45,687  INFO [main] TestBaseFlip:58 - ****************** starting test case 2 ***********************
-2021-06-28 19:38:51,040  INFO [main] TestBaseFlip:68 - ******** ending test case ******************
-2021-06-28 19:38:53,195  INFO [main] TestBaseFlip:112 - ************* Browser is closed *************************
-2021-06-28 19:38:53,198  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:39:13,296  INFO [main] TestBaseFlip:63 - ****************** starting test case 2 ***********************
-2021-06-28 19:39:17,460  INFO [main] TestBaseFlip:75 - ******** ending test case ******************
-2021-06-28 19:39:19,357  INFO [main] TestBaseFlip:87 - ************* Browser is closed *************************
-2021-06-28 19:39:19,359  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:39:32,569  INFO [main] TestBaseFlip:75 - ****************** starting test case 3 ***********************
-2021-06-28 19:39:32,884  INFO [main] TestBaseFlip:86 - ******** ending test case ******************
-2021-06-28 19:39:34,649  INFO [main] TestBaseFlip:112 - ************* Browser is closed *************************
-2021-06-28 19:39:34,652  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
-2021-06-28 19:39:46,675  INFO [main] TestBaseFlip:92 - ****************** starting test case 4 ***********************
-2021-06-28 19:39:52,788  INFO [main] TestBaseFlip:112 - ************* Browser is closed *************************
+2021-06-29 19:38:51,799  INFO [main] TestBaseFlip:42 - **************** Starting test cases execution  ******************
+2021-06-29 19:39:29,147  INFO [main] TestBaseFlip:68 - ****************** starting test case 2 ***********************
+2021-06-29 19:39:36,985 ERROR [main] TestBaseFlip:82 - Wrong credit card number
+2021-06-29 19:39:36,985  INFO [main] TestBaseFlip:90 - ******** ending test case ******************

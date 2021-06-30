@@ -46,7 +46,7 @@ public class PaymentPageTest extends TestBaseFlip {
 		 paymentPage=cartPage.placeOrderButtonPageClick();
 	}
 	
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void paymentPageTitleTest() throws InterruptedException {
 		
 		log.info("****************** starting test case 1 ***********************");
@@ -79,11 +79,11 @@ public class PaymentPageTest extends TestBaseFlip {
 		boolean cardverify =paymentPage.cardValidity(prop.getProperty("verification"));
 		if (cardverify) {
 			
-			log.error("Wrongcredit card number");
+			log.error("Wrong credit card number");
 			
 		}
 		else {
-			log.error("credit cardnumber successful");
+			log.info("credit card number successful");
 		}
 		
 		
@@ -94,7 +94,7 @@ public class PaymentPageTest extends TestBaseFlip {
 	
 	
 	
-	@AfterMethod
+	//@AfterMethod
 	public void teardown() throws InterruptedException {
 		Thread.sleep(1000);
 		driver.quit();

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.mavendemo.test.CartPageTest">
+        <methods>
+          <include name="cartPagePriceTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="placeOrderButtonClick"/>
+        </methods>
+      </class> <!-- com.mavendemo.test.CartPageTest -->
+      <class name="com.mavendemo.test.PaymentPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="paymentPageTitleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mavendemo.test.PaymentPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
