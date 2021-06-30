@@ -6,6 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" parallel="tests">
     <classes>
+      <class name="com.mavendemo.test.CartPageTest">
+        <methods>
+          <include name="cartPagePriceTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mavendemo.test.CartPageTest -->
       <class name="com.mavendemo.test.HomePageAndProductSelectPageTest">
         <methods>
           <include name="ProductPageProductTest"/>

@@ -1,21 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45240" started-at="2021-06-29T14:08:51Z" finished-at="2021-06-29T14:09:36Z">
+  <suite name="Suite" duration-ms="415889" started-at="2021-06-30T09:01:38Z" finished-at="2021-06-30T09:08:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45240" started-at="2021-06-29T14:08:51Z" finished-at="2021-06-29T14:09:36Z">
-      <class name="com.mavendemo.test.PaymentPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.PaymentPageTest@76f2b07d]" name="setup" is-config="true" duration-ms="37344" started-at="2021-06-29T14:08:51Z" finished-at="2021-06-29T14:09:29Z">
+    <test name="Test" duration-ms="415889" started-at="2021-06-30T09:01:38Z" finished-at="2021-06-30T09:08:34Z">
+      <class name="com.mavendemo.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mavendemo.test.LoginPageTest@3d36e4cd]" name="setUp" is-config="true" duration-ms="12429" started-at="2021-06-30T09:04:32Z" finished-at="2021-06-30T09:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.mavendemo.test.LoginPageTest@3d36e4cd]" name="loginPageTitleTest" duration-ms="16" started-at="2021-06-30T09:04:44Z" finished-at="2021-06-30T09:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.LoginPageTest@3d36e4cd]" name="teardown" is-config="true" duration-ms="2127" started-at="2021-06-30T09:04:46Z" finished-at="2021-06-30T09:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mavendemo.test.LoginPageTest@3d36e4cd]" name="setUp" is-config="true" duration-ms="12328" started-at="2021-06-30T09:07:52Z" finished-at="2021-06-30T09:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.mavendemo.test.LoginPageTest@3d36e4cd]" name="loginTest" duration-ms="1638" started-at="2021-06-30T09:08:04Z" finished-at="2021-06-30T09:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.LoginPageTest@3d36e4cd]" name="teardown" is-config="true" duration-ms="929" started-at="2021-06-30T09:08:10Z" finished-at="2021-06-30T09:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.LoginPageTest -->
+      <class name="com.mavendemo.test.HomePageAndProductSelectPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="setup" is-config="true" duration-ms="13027" started-at="2021-06-30T09:04:13Z" finished-at="2021-06-30T09:04:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="creditCardPaymentTest()[pri:2, instance:com.mavendemo.test.PaymentPageTest@76f2b07d]" name="creditCardPaymentTest" duration-ms="7858" started-at="2021-06-29T14:09:29Z" finished-at="2021-06-29T14:09:36Z">
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="homePageTitleTest" duration-ms="26" started-at="2021-06-30T09:04:26Z" finished-at="2021-06-30T09:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="teardown" is-config="true" duration-ms="2913" started-at="2021-06-30T09:04:29Z" finished-at="2021-06-30T09:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="setup" is-config="true" duration-ms="17540" started-at="2021-06-30T09:07:22Z" finished-at="2021-06-30T09:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homeTest()[pri:2, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="homeTest" duration-ms="8621" started-at="2021-06-30T09:07:40Z" finished-at="2021-06-30T09:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="teardown" is-config="true" duration-ms="2541" started-at="2021-06-30T09:07:49Z" finished-at="2021-06-30T09:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="setup" is-config="true" duration-ms="18767" started-at="2021-06-30T09:08:11Z" finished-at="2021-06-30T09:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageUserTest()[pri:3, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="homePageUserTest" duration-ms="71" started-at="2021-06-30T09:08:29Z" finished-at="2021-06-30T09:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageUserTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.HomePageAndProductSelectPageTest@709ba3fb]" name="teardown" is-config="true" duration-ms="2178" started-at="2021-06-30T09:08:32Z" finished-at="2021-06-30T09:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.HomePageAndProductSelectPageTest -->
+      <class name="com.mavendemo.test.CartPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.CartPageTest@5d20e46]" name="setup" is-config="true" duration-ms="26444" started-at="2021-06-30T09:03:43Z" finished-at="2021-06-30T09:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="cartPagePriceTest()[pri:1, instance:com.mavendemo.test.CartPageTest@5d20e46]" name="cartPagePriceTest" duration-ms="1047" started-at="2021-06-30T09:04:09Z" finished-at="2021-06-30T09:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPagePriceTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.CartPageTest@5d20e46]" name="teardown" is-config="true" duration-ms="2313" started-at="2021-06-30T09:04:11Z" finished-at="2021-06-30T09:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.CartPageTest@5d20e46]" name="setup" is-config="true" duration-ms="31911" started-at="2021-06-30T09:06:20Z" finished-at="2021-06-30T09:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="placeOrderButtonClick()[pri:2, instance:com.mavendemo.test.CartPageTest@5d20e46]" name="placeOrderButtonClick" duration-ms="27201" started-at="2021-06-30T09:06:52Z" finished-at="2021-06-30T09:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderButtonClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.CartPageTest@5d20e46]" name="teardown" is-config="true" duration-ms="2012" started-at="2021-06-30T09:07:20Z" finished-at="2021-06-30T09:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.CartPageTest -->
+      <class name="com.mavendemo.test.PaymentPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.PaymentPageTest@7364985f]" name="setup" is-config="true" duration-ms="50848" started-at="2021-06-30T09:02:49Z" finished-at="2021-06-30T09:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="paymentPageTitleTest()[pri:1, instance:com.mavendemo.test.PaymentPageTest@7364985f]" name="paymentPageTitleTest" duration-ms="1018" started-at="2021-06-30T09:03:40Z" finished-at="2021-06-30T09:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.PaymentPageTest@7364985f]" name="teardown" is-config="true" duration-ms="2030" started-at="2021-06-30T09:03:41Z" finished-at="2021-06-30T09:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.PaymentPageTest@7364985f]" name="setup" is-config="true" duration-ms="52631" started-at="2021-06-30T09:05:18Z" finished-at="2021-06-30T09:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="creditCardPaymentTest()[pri:2, instance:com.mavendemo.test.PaymentPageTest@7364985f]" name="creditCardPaymentTest" duration-ms="6481" started-at="2021-06-30T09:06:11Z" finished-at="2021-06-30T09:06:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditCardPaymentTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.PaymentPageTest@7364985f]" name="teardown" is-config="true" duration-ms="2056" started-at="2021-06-30T09:06:18Z" finished-at="2021-06-30T09:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.mavendemo.test.PaymentPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.mavendemo.test.BuyPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.BuyPageTest@ba8d91c]" name="setup" is-config="true" duration-ms="43575" started-at="2021-06-30T09:01:38Z" finished-at="2021-06-30T09:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="buyPageTitleTest()[pri:1, instance:com.mavendemo.test.BuyPageTest@ba8d91c]" name="buyPageTitleTest" duration-ms="23886" started-at="2021-06-30T09:02:22Z" finished-at="2021-06-30T09:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.BuyPageTest@ba8d91c]" name="teardown" is-config="true" duration-ms="2279" started-at="2021-06-30T09:02:46Z" finished-at="2021-06-30T09:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mavendemo.test.BuyPageTest@ba8d91c]" name="setup" is-config="true" duration-ms="22169" started-at="2021-06-30T09:04:48Z" finished-at="2021-06-30T09:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="buyPageBuyButtonClick()[pri:2, instance:com.mavendemo.test.BuyPageTest@ba8d91c]" name="buyPageBuyButtonClick" duration-ms="5110" started-at="2021-06-30T09:05:10Z" finished-at="2021-06-30T09:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyPageBuyButtonClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mavendemo.test.BuyPageTest@ba8d91c]" name="teardown" is-config="true" duration-ms="3009" started-at="2021-06-30T09:05:15Z" finished-at="2021-06-30T09:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mavendemo.test.BuyPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,5 +1,6 @@
 package com.mavendemo.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -30,6 +31,8 @@ public class PaymentPage extends TestBaseFlip {
 	@FindBy(xpath="//button[@type='button']")
 	WebElement payButton;
 	
+	@FindBy(xpath="//span[text()='Not a valid card number']")
+	WebElement invalid;
 	
 	public PaymentPage() {
 		PageFactory.initElements(driver, this);
@@ -59,10 +62,21 @@ public class PaymentPage extends TestBaseFlip {
 		
 			}
 	
-	public boolean cardValidity(String verification)
+	public String cardValidity()
 	{
-		return driver.getPageSource().contains(verification);
+		String invalidMessage="";
+		if(driver.findElements(By.xpath("//span[text()='Not a valid card number']")).size()>0) {
+		System.out.println("error message found");
+		invalidMessage=invalid.getText();
 	      
+	}
+		else {
+			System.out.println("error message not displayed");
+		}
+		return invalidMessage;
+		
+		
+		
 	}
 
 

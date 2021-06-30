@@ -46,7 +46,7 @@ public class PaymentPageTest extends TestBaseFlip {
 		 paymentPage=cartPage.placeOrderButtonPageClick();
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void paymentPageTitleTest() throws InterruptedException {
 		
 		log.info("****************** starting test case 1 ***********************");
@@ -76,15 +76,8 @@ public class PaymentPageTest extends TestBaseFlip {
 		
 		Map<String,String>exceldata=TestExcelUtil.getData();
 		paymentPage.creditCardPayment(prop.getProperty("cardNumber"), exceldata.get("cvv"), prop.getProperty("monthValue"), prop.getProperty("yearValue"));
-		boolean cardverify =paymentPage.cardValidity(prop.getProperty("verification"));
-		if (cardverify) {
-			
-			log.error("Wrong credit card number");
-			
-		}
-		else {
-			log.info("credit card number successful");
-		}
+		String text =paymentPage.cardValidity();
+		Assert.assertEquals(text, "Not a valid card number","card number is valid");
 		
 		
 		log.info("******** ending test case ******************");
@@ -94,7 +87,7 @@ public class PaymentPageTest extends TestBaseFlip {
 	
 	
 	
-	//@AfterMethod
+	@AfterMethod
 	public void teardown() throws InterruptedException {
 		Thread.sleep(1000);
 		driver.quit();

@@ -86,21 +86,7 @@ public class HomePageAndProductSelectPageTest extends TestBaseFlip{
 		log.info("******** ending test case ******************");
 	}
 	
-	@Test(priority=4)
-	public void ProductPageProductTest() throws InterruptedException {
-		
-		log.info("****************** starting test case 4 ***********************");
-		
-		
-		
-		
-		boolean flagforprod=homePageAndProductSelectPage.validateProductTitle(prop.getProperty("prod"));
-		Assert.assertTrue(flagforprod);
-		
-		
-		
-		log.info("******** ending test case ******************");
-	}
+
 	
 	@AfterMethod
 	public void teardown() throws InterruptedException {

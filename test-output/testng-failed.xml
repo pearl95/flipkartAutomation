@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.mavendemo.base.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" parallel="tests">
     <classes>
-      <class name="com.mavendemo.test.PaymentPageTest">
+      <class name="com.mavendemo.test.CartPageTest">
         <methods>
-          <include name="creditCardPaymentTest"/>
+          <include name="cartPagePriceTest"/>
           <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.mavendemo.test.PaymentPageTest -->
+      </class> <!-- com.mavendemo.test.CartPageTest -->
+      <class name="com.mavendemo.test.HomePageAndProductSelectPageTest">
+        <methods>
+          <include name="ProductPageProductTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mavendemo.test.HomePageAndProductSelectPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

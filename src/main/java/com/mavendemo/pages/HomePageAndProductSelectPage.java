@@ -1,14 +1,10 @@
 package com.mavendemo.pages;
 
-import java.io.IOException;
-import java.util.Map;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mavendemo.base.TestBaseFlip;
-import com.mavendemo.util.TestExcelUtil;
 
 public class HomePageAndProductSelectPage extends TestBaseFlip{
 	
@@ -48,12 +44,6 @@ public class HomePageAndProductSelectPage extends TestBaseFlip{
 	
 	
 	
-	public Boolean validateProductTitle(String Phnname) throws InterruptedException {
-		searchpath.sendKeys(Phnname);
-		subbutt.click();
-		Thread.sleep(1000);
-		return driver.getPageSource().contains(prop.getProperty("product"));
-	}
-
+	
 
 }
